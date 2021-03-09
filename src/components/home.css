@@ -34,7 +34,10 @@
   justify-content: space-between;
   margin-top: 20px;
 }
-.entry p {
+.textentry {
+  width: 90%;
+  border: none;
+  outline: none;
   text-align: initial;
   font-size: 18px;
   padding: 0 10px;
