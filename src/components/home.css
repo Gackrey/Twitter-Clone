@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border: 1px solid rgb(185, 185, 185);
+  font-weight: bolder;
+}
+.glitter {
+  width: 20px;
+  padding: 8px;
+  border-radius: 50%;
+  fill: rgba(29, 161, 242, 1);
+}
+.glitter:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+.entry {
+  margin-top: 20px;
+  width: 100%;
+}
+.Tweet {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  border: 1px solid rgb(185, 185, 185);
+}
+.tweet-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.entry p {
+  text-align: initial;
+  font-size: 18px;
+  padding: 0 10px;
+  color: gray;
+}
+.sendicons {
+  display: flex;
+}
+.iconcolorsize {
+  width: 23px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  height: 32px;
+  margin-left: 15px;
+  fill: rgba(29, 161, 242, 1);
+}
+.iconcolorsize:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+.btn-tweet {
+  justify-self: end;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  background-color: rgba(29, 161, 242, 1);
+}
+.posts {
+  padding: 10px;
+  display: flex;
+  border: 1px solid rgb(185, 185, 185);
+}
+.posts:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.postheading {
+  display: flex;
+  margin-left: 10px;
+}
+.postheading span {
+  color: gray;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.verified {
+  fill: rgba(29, 161, 242, 1);
+  width: 20px;
+}
+.postbody {
+  margin-left: 10px;
+  color: black;
+  text-align: start;
+}
+.postimage {
+  width: 500px;
+  border-radius: 20px;
+}
+.posticons {
+  display: flex;
+  fill: gray;
+  justify-content: space-between;
+}
+.posticon {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.posticon:hover {
+  fill: rgba(29, 161, 242, 1);
+  background-color: rgba(29, 161, 242, 0.1);
+}
