@@ -14,7 +14,11 @@ function Home() {
       <div className="Tweet">
         <Avatar pix="50px" top="-14px" />
         <div className="entry">
-          <p>What's happening?</p>
+           <input
+            type="text"
+            className="textentry"
+            placeholder="What's happening?"
+          />
           <div className="tweet-box">
             <div className="sendicons">
               <svg className="iconcolorsize" viewBox="0 0 24 24">
